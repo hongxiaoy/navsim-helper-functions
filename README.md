@@ -29,3 +29,15 @@ The agents in NAVSIM have access to eight cameras surrounding the vehicle. The s
 
 ![image](assets/cameras_and_bev.png)
 
+###### `scene_bev_viz.py`
+
+The script takes a `Scene` and index of the step to visualize (history or future). 
+
+![image](assets/bev.png)
+
+###### `scene_bev_viz_gif.py`
+
+You can transform frame-wise plots into short animated GIFs. Give any function to `frame_plot_to_gif`, which takes a `Scene` and `frame_idx` as input (ie. `plot_cameras_frame_with_annotations`).
+
+![image](assets/a87958f3b6b75845.gif)
+
