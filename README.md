@@ -35,6 +35,12 @@ The script takes a `Scene` and index of the step to visualize (history or future
 
 ![image](assets/bev.png)
 
+###### `scene_bev_trajectory_viz.py`
+
+The script visualizes the trajectory of an <span style="color:#DE7061">agent</span> in comparison to the <span style="color:#59a14f">human vehicle operator</span> at the current frame. This script shows an example of the `HumanAgent` by default:
+
+![image](assets/bev_and_trajectory.png)
+
 ###### `scene_bev_viz_gif.py`
 
 You can transform frame-wise plots into short animated GIFs. Give any function to `frame_plot_to_gif`, which takes a `Scene` and `frame_idx` as input (ie. `plot_cameras_frame_with_annotations`).
